@@ -20,7 +20,7 @@ export const SOCIAL_ORDER: SocialKey[] = ['x', 'instagram', 'tiktok'];
 /** Replace with the Play Store listing once it is live. */
 export const PLAY_STORE_URL = '#download';
 
-/** Placeholders from the design — fill in before launch. */
-export const CONTACT_EMAIL = '[EMAIL ADDRESS]';
-export const CONTACT_PHONE = '[PHONE NUMBER]';
+/** Dummy phone number — replace with the real line before launch. */
+export const CONTACT_EMAIL = 'stignit.inc@gmail.com';
+export const CONTACT_PHONE = '+234 9126136534';
 export const CONTACT_LOCATION = 'Lagos, Nigeria';
