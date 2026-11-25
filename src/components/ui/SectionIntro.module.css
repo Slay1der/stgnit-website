@@ -1,0 +1,33 @@
+.intro {
+  max-width: 720px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.eyebrow {
+  font-size: var(--text-base-sm);
+  font-weight: 700;
+  letter-spacing: var(--tracking-eyebrow);
+  text-transform: uppercase;
+  color: var(--color-accent);
+}
+
+.title {
+  margin: 0;
+  font-size: var(--text-h2);
+  line-height: 1.08;
+  letter-spacing: var(--tracking-heading);
+  font-weight: 800;
+}
+
+.compact {
+  font-size: var(--text-h2-contact);
+}
+
+.description {
+  margin: 0;
+  font-size: var(--text-xl);
+  line-height: 1.6;
+  color: var(--color-text-muted);
+}

@@ -1,0 +1,29 @@
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.mark,
+.wordmark {
+  width: auto;
+}
+
+.md {
+  gap: 12px;
+}
+.md .mark {
+  height: 40px;
+}
+.md .wordmark {
+  height: 22px;
+}
+
+.sm {
+  gap: 10px;
+}
+.sm .mark {
+  height: 32px;
+}
+.sm .wordmark {
+  height: 18px;
+}
