@@ -1,0 +1,86 @@
+/* Stignit design tokens — every colour, radius and type size in the app comes from here. */
+:root {
+  /* Brand */
+  --color-accent: #b00020;
+  --color-accent-hover: #7a0016;
+  --color-accent-bright: #ff4d6a;
+  --color-accent-tint: #ff8a9c;
+  --color-accent-pale: #ffb3bf;
+  --color-accent-wash: #ffe3e8;
+
+  /* Ink (dark surfaces) */
+  --color-ink: #0b0d12;
+  --color-ink-raised: #161a22;
+  --color-ink-road: #20252f;
+  --color-ink-line: #2a303c;
+  --color-ink-glass: rgba(255, 255, 255, 0.08);
+  --color-ink-glass-soft: rgba(255, 255, 255, 0.07);
+  --color-ink-outline: rgba(255, 255, 255, 0.25);
+  --color-ink-overlay: rgba(11, 13, 18, 0.8);
+
+  /* Text */
+  --color-text: #0b0d12;
+  --color-text-muted: #4a5060;
+  --color-text-on-ink: #ffffff;
+  --color-text-on-ink-muted: #b9bfca;
+  --color-text-on-ink-subtle: #9aa1ae;
+  --color-text-on-ink-link: #d5d9e0;
+
+  /* Light surfaces */
+  --color-surface: #ffffff;
+  --color-surface-muted: #f5f6f8;
+  --color-border: #e3e6eb;
+  --color-border-strong: #d5d9e0;
+
+  /* States */
+  --color-success: #0f7a3d;
+  --color-success-bright: #22c55e;
+  --color-responder: #3b82f6;
+  --color-siren-blue: #2563eb;
+  --color-windscreen: #cfe3ff;
+
+  /* Type */
+  --font-sans: 'Plus Jakarta Sans', system-ui, sans-serif;
+  --text-xs: 12px;
+  --text-sm: 13px;
+  --text-base-sm: 14px;
+  --text-md: 15px;
+  --text-base: 16px;
+  --text-lg: 17px;
+  --text-xl: 18px;
+  --text-2xl: 19px;
+  --text-3xl: 20px;
+  --text-4xl: 22px;
+  --text-step-title: 30px;
+  --text-h1: clamp(40px, 5.2vw, 68px);
+  --text-h2: clamp(32px, 4vw, 52px);
+  --text-h2-cta: clamp(36px, 4.5vw, 60px);
+  --text-h2-contact: clamp(32px, 4vw, 48px);
+  --text-step-number: clamp(44px, 10vw, 64px);
+
+  --tracking-display: -0.035em;
+  --tracking-heading: -0.03em;
+  --tracking-title: -0.02em;
+  --tracking-eyebrow: 0.08em;
+
+  /* Radius */
+  --radius-xs: 8px;
+  --radius-sm: 12px;
+  --radius-md: 14px;
+  --radius-lg: 16px;
+  --radius-xl: 18px;
+  --radius-2xl: 20px;
+  --radius-card: 22px;
+  --radius-media: 24px;
+  --radius-panel: 28px;
+  --radius-phone: 32px;
+  --radius-pill: 999px;
+
+  /* Layout */
+  --page-max: 1240px;
+  --page-gutter: 24px;
+
+  /* Elevation & motion */
+  --shadow-card-hover: 0 12px 32px rgba(11, 13, 18, 0.1);
+  --ease-out-soft: cubic-bezier(0.2, 0.8, 0.2, 1);
+}
