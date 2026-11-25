@@ -1,0 +1,64 @@
+.section {
+  padding-block: 96px;
+}
+
+.intro {
+  margin-bottom: 40px;
+}
+
+.grid {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(270px, 100%), 1fr));
+  gap: 18px;
+}
+
+.card {
+  background: var(--color-surface-muted);
+  border-radius: var(--radius-card);
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.icon {
+  color: var(--color-accent);
+}
+
+.title {
+  margin: 0;
+  font-size: var(--text-3xl);
+}
+
+.description {
+  margin: 0;
+  font-size: var(--text-md);
+  line-height: 1.6;
+  color: var(--color-text-muted);
+}
+
+.partner {
+  background: var(--color-accent);
+  color: var(--color-text-on-ink);
+  justify-content: space-between;
+}
+
+.partnerTitle {
+  margin: 0;
+  font-size: var(--text-4xl);
+}
+
+.partnerText {
+  margin: 0;
+  font-size: var(--text-md);
+  line-height: 1.6;
+}
+
+.partnerLink,
+.partnerLink:hover {
+  color: var(--color-text-on-ink);
+  font-weight: 700;
+}

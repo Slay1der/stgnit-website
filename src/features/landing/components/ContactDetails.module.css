@@ -1,0 +1,21 @@
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  font-size: var(--text-base);
+}
+
+.row {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  overflow-wrap: anywhere;
+}
+
+.icon {
+  flex: none;
+  color: var(--color-accent);
+}

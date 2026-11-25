@@ -1,0 +1,124 @@
+.hero {
+  padding-top: 56px;
+  padding-bottom: 72px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px;
+  align-items: center;
+}
+
+.copy {
+  flex: 1 1 440px;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.badge {
+  align-self: flex-start;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 14px;
+  border-radius: var(--radius-pill);
+  background: var(--color-ink-glass);
+  font-size: var(--text-base-sm);
+  font-weight: 600;
+  color: var(--color-accent-pale);
+}
+
+.beacon {
+  position: relative;
+  width: 10px;
+  height: 10px;
+}
+
+.beaconDot {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: var(--color-accent-bright);
+}
+
+.title {
+  margin: 0;
+  font-size: var(--text-h1);
+  line-height: 1.03;
+  letter-spacing: var(--tracking-display);
+  font-weight: 800;
+}
+
+.lede {
+  margin: 0;
+  font-size: var(--text-2xl);
+  line-height: 1.6;
+  color: var(--color-text-on-ink-muted);
+  max-width: 540px;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.primary,
+.secondary {
+  display: inline-flex;
+  align-items: center;
+  padding: 14px 22px;
+  border-radius: var(--radius-md);
+  min-height: 52px;
+  text-decoration: none;
+}
+
+.primary {
+  gap: 12px;
+  background: var(--color-surface);
+  color: var(--color-ink);
+  font-weight: 700;
+}
+.primary:hover {
+  color: var(--color-ink);
+  background: var(--color-text-on-ink-link);
+}
+
+.secondary {
+  gap: 10px;
+  color: var(--color-text-on-ink);
+  border: 1.5px solid var(--color-ink-outline);
+  font-weight: 600;
+}
+.secondary:hover {
+  color: var(--color-text-on-ink);
+  border-color: var(--color-text-on-ink);
+}
+
+.hint {
+  margin: 0;
+  font-size: var(--text-sm);
+  color: var(--color-text-on-ink-subtle);
+}
+
+.media {
+  flex: 1 1 520px;
+  min-width: 0;
+}
+
+.frame {
+  position: relative;
+  aspect-ratio: 16 / 10;
+  border-radius: var(--radius-media);
+  overflow: hidden;
+  background: var(--color-ink);
+  border: 1px solid var(--color-ink-glass);
+}
+
+.video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

@@ -1,0 +1,55 @@
+.panel {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: center;
+  border-radius: var(--radius-panel);
+  padding: clamp(20px, 5vw, 40px);
+}
+
+.light {
+  background: var(--color-surface-muted);
+}
+
+.dark {
+  background: var(--color-ink);
+  color: var(--color-text-on-ink);
+}
+
+.copy,
+.visual {
+  flex: 1 1 300px;
+  min-width: 0;
+}
+
+.copy {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.number {
+  font-size: var(--text-step-number);
+  font-weight: 800;
+  line-height: 1;
+  color: var(--color-border);
+}
+.dark .number {
+  color: var(--color-ink-line);
+}
+
+.title {
+  margin: 0;
+  font-size: var(--text-step-title);
+  letter-spacing: var(--tracking-title);
+}
+
+.description {
+  margin: 0;
+  font-size: var(--text-lg);
+  line-height: 1.65;
+  color: var(--color-text-muted);
+}
+.dark .description {
+  color: var(--color-text-on-ink-muted);
+}

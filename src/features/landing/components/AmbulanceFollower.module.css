@@ -1,0 +1,60 @@
+.follower {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 60;
+  pointer-events: none;
+  transition: transform 0.9s var(--ease-out-soft);
+}
+
+.flip {
+  width: 96px;
+  height: 56px;
+  transition: transform 0.25s ease;
+}
+
+.sirenRed {
+  fill: var(--color-accent);
+  animation: stg-blink 0.8s steps(1) infinite;
+}
+.sirenBlue {
+  fill: var(--color-siren-blue);
+  animation: stg-blink 0.8s steps(1) infinite;
+  animation-delay: 0.4s;
+}
+.body {
+  fill: var(--color-surface);
+  stroke: var(--color-ink);
+  stroke-width: 2.5;
+  stroke-linejoin: round;
+}
+.window {
+  fill: var(--color-windscreen);
+  stroke: var(--color-ink);
+  stroke-width: 2;
+}
+.stripe {
+  fill: var(--color-accent);
+}
+.cross {
+  stroke: var(--color-accent);
+  stroke-width: 4;
+  stroke-linecap: round;
+}
+.tyre {
+  fill: var(--color-ink);
+}
+.hub {
+  fill: var(--color-surface);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .follower,
+  .flip {
+    transition: none;
+  }
+  .sirenRed,
+  .sirenBlue {
+    animation: none;
+  }
+}

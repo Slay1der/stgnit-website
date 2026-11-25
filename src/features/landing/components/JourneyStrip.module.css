@@ -1,0 +1,40 @@
+.strip {
+  border-top: 1px solid var(--color-ink-glass);
+}
+
+.list {
+  margin-block: 0;
+  list-style: none;
+  padding-block: 28px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(220px, 100%), 1fr));
+  gap: 16px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.number {
+  flex: none;
+  width: 44px;
+  height: 44px;
+  border-radius: var(--radius-sm);
+  background: var(--color-ink-glass-soft);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  color: var(--color-accent-tint);
+}
+
+.title {
+  font-weight: 700;
+}
+
+.caption {
+  font-size: var(--text-base-sm);
+  color: var(--color-text-on-ink-subtle);
+}

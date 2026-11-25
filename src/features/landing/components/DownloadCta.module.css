@@ -1,0 +1,73 @@
+.band {
+  background: var(--color-accent);
+  color: var(--color-text-on-ink);
+}
+
+.inner {
+  padding-block: 88px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.copy {
+  flex: 1 1 480px;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.title {
+  margin: 0;
+  font-size: var(--text-h2-cta);
+  line-height: 1.05;
+  letter-spacing: var(--tracking-heading);
+  font-weight: 800;
+}
+
+.text {
+  margin: 0;
+  font-size: var(--text-xl);
+  line-height: 1.6;
+  color: var(--color-accent-wash);
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.store,
+.social {
+  display: inline-flex;
+  align-items: center;
+  border-radius: var(--radius-md);
+  font-weight: 700;
+  min-height: 56px;
+  text-decoration: none;
+}
+
+.store,
+.store:hover {
+  gap: 12px;
+  background: var(--color-ink);
+  color: var(--color-text-on-ink);
+  padding: 16px 24px;
+}
+
+.social,
+.social:hover {
+  gap: 10px;
+  background: var(--color-surface);
+  color: var(--color-ink);
+  padding: 16px 22px;
+}
+
+.store:hover,
+.social:hover {
+  filter: brightness(0.92);
+}

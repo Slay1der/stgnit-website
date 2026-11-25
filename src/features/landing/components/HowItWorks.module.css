@@ -1,0 +1,17 @@
+.section {
+  padding-top: 112px;
+  padding-bottom: 48px;
+}
+
+.intro {
+  margin-bottom: 56px;
+}
+
+.steps {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}

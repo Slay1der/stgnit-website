@@ -1,0 +1,14 @@
+.section {
+  padding-top: 96px;
+  padding-bottom: 48px;
+}
+
+.intro {
+  margin-bottom: 40px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}

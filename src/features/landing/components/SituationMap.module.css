@@ -1,0 +1,44 @@
+.map {
+  position: relative;
+  height: 220px;
+  border-radius: var(--radius-2xl);
+  background: var(--color-ink-raised);
+  overflow: hidden;
+}
+
+.mainRoad {
+  stroke: var(--color-ink-line);
+  stroke-width: 26;
+  fill: none;
+}
+.sideRoad {
+  stroke: var(--color-ink-road);
+  stroke-width: 16;
+}
+.incidentHalo {
+  fill: var(--color-accent);
+  opacity: 0.25;
+}
+.incident {
+  fill: var(--color-accent-bright);
+}
+.responder {
+  fill: var(--color-responder);
+}
+.route {
+  stroke: var(--color-responder);
+  stroke-width: 2.5;
+  stroke-dasharray: 6 6;
+  fill: none;
+}
+
+.tag {
+  position: absolute;
+  left: 14px;
+  top: 14px;
+  background: var(--color-ink-overlay);
+  padding: 6px 10px;
+  border-radius: var(--radius-xs);
+  font-size: var(--text-xs);
+  color: var(--color-text-on-ink-link);
+}
